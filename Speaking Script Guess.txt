@@ -1,0 +1,16 @@
+Speaking Script: Guess the Number Project
+
+1. Initial Variables: 
+(Action: Point to lines 1–3 in your code)
+
+"In this section, we define the initial variables. The secret_number is 7, and the max_attempts is set to 5. These values are the core parameters of the game. At the beginning, the attempts_used is zero because the player is just starting."
+
+2. Active Processes:
+(Action: Point to the while loop, lines 5–9)
+
+"The program is running a while loop to control the flow. As you can see, the system is asking the user for a number and is converting the input into an integer. While the player is guessing, the code is adding one to the total attempts to keep the count updated."
+
+3. Logic and Results:
+(Action: Point to the if, elif, and else blocks, lines 11–20)
+
+"The logic compares the guess with the secret number. If the user wins, the program breaks the loop and prints a victory message. If the guess is too high or too low, the system gives a hint. Finally, if the player fails all five attempts, the program shows the correct number as the final result."
